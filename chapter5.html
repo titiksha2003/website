@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chapter 5: Pineapple + Nakama</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="chapter5-bg">
+
+  <div class="chapter-container">
+    <h2 class="chapter-title yellow-glow">Chapter 5: Pineapple + Nakama</h2>
+    <p class="animated-text" id="chapter5-text"></p>
+
+    <div class="gift-grid">
+      <div class="gift" onclick="showMemory('pineapple')">🍍</div>
+      <div class="gift" onclick="showMemory('scroll')">📜</div>
+      <div class="gift" onclick="showMemory('heart')">💖</div>
+      <div class="gift nakama-gift" onclick="showMemory('nakama')">🐾</div>
+    </div>
+
+    <div id="memory-popup" class="popup hidden">
+      <p id="memory-text"></p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+
+    <button onclick="goToNext()">Next ➤</button>
+  </div>
+
+  <audio src="assets/fun_soft_theme.mp3" autoplay loop></audio>
+  <script src="chapter5.js"></script>
+  <audio src="assets/song2.mp3" autoplay loop></audio>
+</body>
+</html>

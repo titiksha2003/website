@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chapter 1: How We Met</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="chapter-bg">
+  <div class="stars-bg">
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+</div>
+  <div class="chapter-container">
+   <h2 class="chapter-title">Chapter 1: How We Met</h2>
+    <p class="animated-text" id="story-text"></p>
+    <div class="chibi-group">
+        <div class="chibi-wrapper" onclick="showThought('her')">
+        <img src="assets/you-chibi.png" class="chibi" />
+        <div class="speech-bubble" id="her-bubble">🌸 Just a girl in love~</div>
+    </div>
+
+    <div class="chibi-wrapper" onclick="showThought('him')">
+        <img src="assets/ayush-chibi.png" class="chibi" />
+         <div class="speech-bubble" id="him-bubble">😳 Hehe she’s looking at me...</div>
+    </div>
+</div>
+
+
+
+    <button onclick="goToNext()">Next ➤</button>
+  </div>
+
+  <!-- Auto background music from here onward -->
+  <audio id="bg-music" src="assets/haikyuu_theme.mp3" autoplay loop></audio>
+
+
+  <script src="chapter1.js"></script>
+  
+</body>
+</html>

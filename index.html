@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calling Ayush...</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div id="call-screen">
+    <h1>Connected through Discord...</h1>
+    <div class="discord-icons">
+      <img src="assets/your-pfp.jpg" alt="You" class="avatar" />
+      <span class="call-dots">• • •</span>
+      <img src="assets/ayush-pfp.jpg" alt="Ayush" class="avatar" />
+    </div>
+    <button id="connect-btn">Connect to Call</button>
+  </div>
+
+  <div id="video-call-ui" class="hidden">
+    <div class="call-ui-header">Connected — Discord Call</div>
+    <div class="call-video">
+      <img src="assets/your-pfp.jpg" class="avatar-big" />
+      <img src="assets/ayush-pfp.jpg" class="avatar-big" />
+    </div>
+  </div>
+
+  <audio id="discord-sound" src="assets/Discord_Join.mp3" preload="auto"></audio>
+  
+  <script src="script.js"></script>
+</body>
+</html>
