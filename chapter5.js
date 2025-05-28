@@ -25,7 +25,7 @@ function showMemory(type) {
   if (type === "pineapple") {
     text.innerHTML = "🍍 Good Morning pineapple, looking very good very nice.";
   } else if (type === "scroll") {
-    text.innerHTML = "📜 You watched Haikyuu because I asked... and somehow it became our thing.";
+    text.innerHTML = "📜 Reading your letter... my heart fluttered with a thousand emotions 🌸.I felt nervous, yet so incredibly happy — like a thousand little stars bursting into light within me ✨.I felt so loved, so valued, so seen...I was crying inside out of pure joy, my soul dancing in silent tears of happiness 🌧️💖.In that moment, I became so shy —I couldn’t bring myself to give you a kiss or a hug in front of so many people,but oh, how my heart longed to do just that 💌🤍.I LOVE YOU TOO...Just the way the Earth loves the Moon 🌍🌕,Just like the fishes love the water 🐠💦,Just as Jitta, the minute hand, endlessly loves the hour hand, circling it with every passing moment 🕰️❤️ —I love you too, Ayush... more than words could ever truly say. 💞";
   } else if (type === "heart") {
     text.innerHTML = "💖 The way you made me feel special... even when I didn’t believe in myself.";
   } else if (type === "nakama") {
